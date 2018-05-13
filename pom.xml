@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lya-mur</groupId>
-    <artifactId>Lya-mur.core 2.x</artifactId>
+    <artifactId>Lya-mur.core2.x</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
