@@ -1,4 +1,4 @@
-import templater.MainPageGenerator;
+package servlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -16,6 +16,7 @@ public class MainServlet extends HttpServlet {
 
         Map<String, String> pageVeriable = new HashMap<String, String>();
         pageVeriable.put("name", "Vladislav");
-        resp.getWriter().println(MainPageGenerator.instance().getPage("index.html", pageVeriable));
+        /*resp.getWriter().println(PageGenerator.instance().getPage("index.html", pageVeriable));*/
+        req.getRequestDispatcher("resources/pages/index.html").forward(req, resp);
     }
 }

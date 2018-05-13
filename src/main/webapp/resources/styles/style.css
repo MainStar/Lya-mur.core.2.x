@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main_container{
+	width: 100%;
+	height: 3000px;
+}
+.head{
+	width: 100%;
+	height: 5%;
+}
+.logo{
+	float: left;
+	margin-top: -1%;
+	margin-left: 3%;
+	width: 22%;
+	height: 90%;
+	overflow: hidden;
+	background: url("../images/logo.png");
+	/*background: black;*/
+	background-size: cover;
+}
+.block_info{
+	float: right;
+	width: 66%;
+	height: 84%;
+	box-shadow: 0 0 7px grey;
+	/*border: 1px solid grey;*/
+}
+.menu{
+	margin-top: 0.7%;
+	width: 100%;
+	height: 16%;
+}
+.main_menu{
+	margin-left: 2%;
+	width: 100%;
+	height: 100%;
+}
+.main_menu > li{
+	width: 23%;
+	height: 100%;
+	float: left;
+	margin-left: 1%;
+	display: table-cell;
+	background: #0467FB;
+	text-align: center;
+	box-shadow: 0 0 5px grey;
+}
+.main_menu > li > a{
+	color: white;
+	text-decoration: none;
+	font: 104% sans-serif;	
+}
+/**************************************/
+/* ********************************** */
+.block_contacts_in_head{
+	width: 100%;
+	height: 100%;
+}
+.phone{
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+.phone > a{
+	text-decoration: none;
+	color: black;
+}
+.phone > a > h4{
+	font: 155% sans-serif;
+}
+.addres{
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-top: 2%;
+}
+.addres > a{
+	text-decoration: none;
+	color: black;
+}
+.addres > a > h4{
+	font: 145% sans-serif;
+}
+.schedule{
+	float: right;
+	margin-top: 2%;
+	width: 30%;
+}
+.schedule > a{
+	text-decoration: none;
+	color: black;
+}
+.schedule > a > h4{
+	font: 145% sans-serif;
+}
+
+/* *********************************** */
+.services{
+	float: left;
+	margin-top: 0.2%;
+	width: 100%;
+	height: 2%;
+	background: #0467FB;
+	box-shadow: 0 0 5px grey;
+}
+
+/* *********** Отрисовка блока БЛОГА   ******* */
+.block_blog{
+	/*position: fixed;*/
+	float: right;
+	left: 71%;
+	top: 30.5%;
+	margin-top: 0.2%;
+	width: 32%;
+	height: 40%;
+	box-shadow: 0 0 10px grey;
+	/*border: 0.2px solid grey;*/
+}
+.block_name_block{
+	width: 100%;
+	height: 2%;
+	background: #0467FB;
+	border-top: 0.2px solid white;
+	border-bottom: 0.2px solid white;
+}
+.block_name_block > a{
+	text-decoration: none;
+	color: white;
+}
+.block_name_block > a > h4{
+	margin-left: 40%;
+	font: 104% sans-serif;
+}
+.blog_post{
+	width: 100%;
+	height: 12%;
+	margin-top: 0.2%;
+	border-bottom: 0.02px solid grey;
+}
+.blog_img{
+	float: left;
+	width: 35%;
+	height: 85%;
+	margin-top: 3%;
+	margin-left: 3%;
+	/*background: black;*/
+}
+.blog_info{
+	float: right;
+	width: 60%;
+	height: 80%;
+	margin-top: 3%;
+	margin-right: 1%;
+	/*background: black;*/
+}
+.blog_link{
+	float: right;
+	margin-right: 3%;
+	font: 75% sans-serif;
+	color: black;
+}

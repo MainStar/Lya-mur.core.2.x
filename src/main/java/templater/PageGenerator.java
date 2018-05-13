@@ -11,16 +11,16 @@ import java.io.StringWriter;
 import java.io.Writer;
 import java.util.Map;
 
-public class MainPageGenerator {
+public class PageGenerator {
 
-    private static MainPageGenerator mainPageGenerator;
+    private static PageGenerator pageGenerator;
     private Configuration cfg;
 
-    public static MainPageGenerator instance(){
-        if (mainPageGenerator == null){
-            mainPageGenerator = new MainPageGenerator();
+    public static PageGenerator instance(){
+        if (pageGenerator == null){
+            pageGenerator = new PageGenerator();
         }
-        return mainPageGenerator;
+        return pageGenerator;
     }
 
     public String getPage(String fileName, Map<String, String> data){
@@ -38,7 +38,7 @@ public class MainPageGenerator {
         return stream.toString();
     }
 
-    private MainPageGenerator(){
+    private PageGenerator(){
         cfg = new Configuration();
     }
 
