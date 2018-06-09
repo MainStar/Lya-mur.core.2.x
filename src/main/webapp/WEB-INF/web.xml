@@ -15,7 +15,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>adminLogin</servlet-name>
-        <url-pattern>/admin-login</url-pattern>
+        <url-pattern>/dashboard-login</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>adminLogin</servlet-name>
