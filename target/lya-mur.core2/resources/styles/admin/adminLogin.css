@@ -1,0 +1,88 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#main_frame{
+	height:900px;
+	width:100%;
+}
+#main_authorization_block{
+	width:50%;
+	height:40%;
+	margin-left:26%;
+	margin-top:10%;
+	border:2px solid gray;
+	border-radius:18px;
+	box-shadow:0 0 10px blue;
+}
+#name_block{
+	width:100%;
+	height:15%;
+}
+#name_block a h3{
+	font-size:25px;
+	padding-top:3%;
+	padding-left:7%;
+}
+#left_information_block{
+	float:left;
+	width:35%;
+	height:80%;
+	margin-top:4%;
+	text-align:center;
+	font-size:15px;
+/*	background:black;*/
+}
+#left_information_block a h4{
+	margin-top:10%;
+	margin-left:3%;
+}
+#right_fields_block{
+	margin-top:3%;
+	margin-right:5%;
+	float:right;
+	height:73%;
+	width:58%;
+	border:1px solid #A9A9A9;
+	border-radius:10px;
+	background:#E6E6FA;
+}
+#login_form{
+	width:100%;
+	height:100%;
+}
+#login_form input{
+	margin-top:10%;
+	margin-left:12.5%;
+	border-radius:5px;
+	height:15%;
+	width:75%;
+	font-size:20px;
+}
+#login_form div{
+	margin-top:4%;
+	margin-left:29%;
+	height:17%;
+	width:43%;
+	border-radius:8px;
+	background:linear-gradient(to top, #C0C0C0, white);	
+}
+#login_form div:hover{
+	background:linear-gradient(to top, #A9A9A9, white)
+}
+#login_form div a{
+	text-decoration:none;
+	color:#4682B4;
+	font-size:20px;
+	float:left;
+	padding-left:16%;
+	margin-top:5%;
+}
+#login_form div img{
+	position:absolute;
+/*	float:right;*/
+	padding-left:1%;
+	padding-top:0.7%;
+/*	padding-right:2%;*/
+/*	padding-top:6.5%;*/
+}
