@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" type="text/css" href="resources/styles/admin/adminLogin.css"/>
+	<script type="text/javascript" src="resources/scripts/admin/verifyUser.js"></script>
 </head>
 <body>
 	<div id="main_frame">
@@ -19,10 +20,11 @@
 				<form id="login_form">
 					<input type="text" id="name_input" placeholder=" Login"/>
 					<input type="password" id="password_input" placeholder=" Password"/>
-					<div id="button_submit">
-						<a href="#"><h3>Submit</h3></a>
+					<input type="submit" id="button_submit" onclick="checkUser()"/>
+					<!--<div id="button_submit">
+						<a href="#" onclick="checkUser()"><h3>Submit</h3></a>
 						<img src="resources/images/admin/arrow.png"/>
-					</div>
+					</div>-->
 				</form>
 			</div>
 		</div>

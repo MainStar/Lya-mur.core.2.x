@@ -15,7 +15,7 @@ public class DaoUser {
     private static List<User> userList = new ArrayList<User>();
 
     public static void connectToUsers() throws SQLException {
-        connection = DriverManager.getConnection("jdbs:mysql://tt62008f7lbsry1x:kueqt32c8snffxff@lt80glfe2gj8p5n2.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/hytxwnavkj1qz6g4");
+        connection = DriverManager.getConnection("mysql://tt62008f7lbsry1x:kueqt32c8snffxff@lt80glfe2gj8p5n2.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/hytxwnavkj1qz6g4");
         System.out.println("Connection to Table 'Users' is OK");
     }
 
