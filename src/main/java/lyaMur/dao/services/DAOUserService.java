@@ -23,6 +23,8 @@ public class DAOUserService {
             if (el.getName().equals(name) && el.getPassword().equals(password)){
                 if (el.getStatus().equals("admin")){
                     verification = "valid";
+                }else {
+                    verification = "invalid";
                 }
             }else{
                 verification = "invalid";

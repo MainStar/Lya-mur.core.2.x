@@ -22,10 +22,11 @@ public class UserActions {
 
     @POST
     @Path(value = "/user")
-    @Produces(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.TEXT_PLAIN)
     public String checkAuthorization(InputStream io) throws IOException, SQLException {
         user = userRestService.readUser(io);
         validation = daoUserService.verifyUser(user.getName(), user.getPassword());
+        System.out.println(validation);
         return validation;
     }
 

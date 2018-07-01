@@ -8,11 +8,16 @@ function checkUser(){
         "status":""
     };
     var userJson = JSON.stringify(user);
-    alert(userJson);
     var xhr = new XMLHttpRequest();
     xhr.open('POST', "api/validation/user", true);
-    xhr.send(userJson);
     xhr.onload = function(){
-        alert(xhr.responseText);
-    }
+            alert(xhr.responseText);
+            var status = xhr.responseText;
+            if(status == "valid"){
+                //window.open("http://google.com");
+                location.replace("/");
+            }
+    };
+    alert(xhr.status);
+    xhr.send(userJson);
 }
