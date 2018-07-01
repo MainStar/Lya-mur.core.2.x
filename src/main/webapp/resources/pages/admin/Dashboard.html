@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lya Mur - Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<script type="text/javascript" src="downloadImg.js"></script>
+</head>
+<body>
+	<div class="main_container">
+		<div class="head">
+			
+		</div>
+		<div class="left_menu">
+			<div class="menu">
+				<ul>
+					<li><a href=""><h4>Блог</h4></a></li>
+				</ul>				
+			</div>
+		</div>
+		<div class="frame_dashboard">
+			<div class="frame_add_post">
+				<div class="post">
+					<div class="post_fields">
+						<div class="frame_name">
+							<a>Создание нового поста</a>
+						</div>
+						<div>
+							<a>Введите тему</a>
+							<p><input type="text" name="summary" placeholder=" Тема" style="background: #F4E7FD;"></p>
+						</div>
+						<div>
+							<a>Введите текст для отображения на Гл. странице</a>
+							<p><textarea rows="5" cols="45" placeholder=" Введите текст здесь" ></textarea></p>
+						</div>
+						<div>
+							<a>Введите тект для поста</a>
+							<p><textarea rows="10" cols="45" placeholder=" Введите текст здесь"></textarea></p>
+						</div>
+						<div class="post_field_photo">
+							<a>Загрузите изображение для поста</a>
+							<div class="field_photo" id="photo">
+								<img src="" alt="empty photo of post">
+								<!--<div class="frame_upload_img" id="frame_upload_img">
+									<a href=""><h4>Нажмите для загрузки изображения</h4></a>
+								</div>-->
+							</div>
+							<input type="file" multiple accept="image/*, image/jpeg">						
+						</div>
+						<div class="frame_button_create_post">
+							<div class="frame_button" id="frame_button">
+								<a href=""><h4>Создать пост</h4></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="all_posts">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
