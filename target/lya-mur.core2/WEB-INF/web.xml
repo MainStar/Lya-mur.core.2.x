@@ -21,4 +21,12 @@
         <servlet-name>adminLogin</servlet-name>
         <servlet-class>lyaMur.servlets.AdminLoginServlet</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>dashboard</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>dashboard</servlet-name>
+        <servlet-class>lyaMur.servlets.DashoardServlet</servlet-class>
+    </servlet>
 </web-app>

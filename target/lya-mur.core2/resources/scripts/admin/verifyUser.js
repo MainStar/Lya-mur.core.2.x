@@ -11,13 +11,12 @@ function checkUser(){
     var xhr = new XMLHttpRequest();
     xhr.open('POST', "api/validation/user", true);
     xhr.onload = function(){
-            alert(xhr.responseText);
+            alert("Test" + xhr.responseText);
             var status = xhr.responseText;
             if(status == "valid"){
                 //window.open("http://google.com");
-                location.replace("/");
+                location.replace("/lya-mur.core2/dashboard");
             }
     };
-    alert(xhr.status);
     xhr.send(userJson);
 }

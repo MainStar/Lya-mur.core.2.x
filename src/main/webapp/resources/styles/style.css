@@ -4,16 +4,16 @@
 }
 .main_container{
 	width: 100%;
-	height: 800px;
+	height: 1000px;
 }
 .head{
 	width: 100%;
 	height: 15%;
 }
 .pod_head{
-	width: 70.5%;
+	width: 920px;
 	height: 100%;
-	margin-left: 15.5%;
+	margin:0 auto;
 	box-shadow: 0 0 7px grey;
 }
 .logo{
@@ -114,6 +114,69 @@
 	font: 115% sans-serif;
 }
 
+/* Конфигурация Блока под синим блоком */
+.photo_class_under_serviceInTop{
+	width: 920px;
+	height: 65%;
+	margin: auto;
+}
+.frame_img{
+	position: relative;
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+}
+.frame_img > img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.under_photo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) , rgba(0, 0, 0, 0.1) 100%);
+}
+.left_block{
+	width: 50%;
+	height: 100%;
+}
+.name{
+	width: 100%;
+	height: 30%;
+	margin-top: 20%;
+	font-size: 2.2rem;
+	font-family: "Arial";
+	text-align: center;
+	font-weight: 500;
+	color: #e2231a;
+}
+.buton_location{
+	width: 35%;
+	height: 15%;
+	background: white;
+	border: 2px solid #e2231a;
+	margin: 0 auto;
+}
+.buton_location{
+	position: relative;
+	text-align: center;
+	color: #e2231a;
+}
+.button_location:hover{
+	background: red;
+}
+.buton_location > a{
+	position: absolute;
+	width: 100%;
+	/*height: 100%;*/
+	padding-top: 17%;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #e2231a;
+	display: block;
+}
+
 /* *********************************** */
 /* Конфигурация блока услуг в СИНЕЙ ПОЛОСЕ */
 .services{
@@ -155,9 +218,9 @@
 	width:100%;
 }
 .container_blog_services{
-	width: 75%;
+	width: 920px;
 	height: 125%;
-	margin-left: 11.5%;
+	margin: 0 auto;
 }
 
 /* Конфигурация блока с картой, блогом и погодой */
@@ -291,7 +354,7 @@
 .contacts{
 	width: 63%;
 	height: 55%;
-	/*margin-top: -4%;*/
+	margin-top: -6%;
 	margin-left: 7%;
 }
 .footer{

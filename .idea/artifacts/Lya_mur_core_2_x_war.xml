@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Lya-mur core 2.x:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="lya-mur.core2.war">
+      <element id="artifact" artifact-name="Lya-mur core 2.x:war exploded" />
+    </root>
+  </artifact>
+</component>
