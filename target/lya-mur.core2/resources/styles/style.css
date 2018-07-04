@@ -11,7 +11,7 @@
 	height: 15%;
 }
 .pod_head{
-	width: 920px;
+	width: 1200px;
 	height: 100%;
 	margin:0 auto;
 	box-shadow: 0 0 7px grey;
@@ -116,7 +116,7 @@
 
 /* Конфигурация Блока под синим блоком */
 .photo_class_under_serviceInTop{
-	width: 920px;
+	width: 1200px;
 	height: 65%;
 	margin: auto;
 }
@@ -188,12 +188,12 @@
 	box-shadow: 0 0 5px grey;
 }
 .services_in_top{
-	width: 80%;
+	width: 90%;
 	height: 100%;
-	margin-left: 10%;
+	margin: auto auto;
 }
 .service_img{
-	width: 12%;
+	width: 9%;
 	height: 90%;
 	margin-left: 6%;
 	display: inline-block;
@@ -218,7 +218,7 @@
 	width:100%;
 }
 .container_blog_services{
-	width: 920px;
+	width: 1200px;
 	height: 125%;
 	margin: 0 auto;
 }
@@ -254,7 +254,7 @@
 	color: white;
 }
 .block_name_block > a > h4{
-	margin-top: 2%;
+	margin-top: 5%;
 	height: 100%;
 	text-align: center;
 	font: 90% sans-serif;
@@ -352,10 +352,10 @@
 	height: 85%;
 }
 .contacts{
-	width: 63%;
+	width: 950px;
 	height: 55%;
 	margin-top: -6%;
-	margin-left: 7%;
+	margin-left: 2%;
 }
 .footer{
 	width: 100%;
