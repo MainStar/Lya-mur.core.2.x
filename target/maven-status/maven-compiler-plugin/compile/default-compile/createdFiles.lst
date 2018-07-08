@@ -1,11 +1,12 @@
 lyaMur/utils/Constants.class
-lyaMur/rest/resources/UserActions.class
 lyaMur/rest/restApiUrl.class
 lyaMur/servlets/DashoardServlet.class
 lyaMur/servlets/AdminLoginServlet.class
 lyaMur/dao/services/DAOUserService.class
 Main.class
 lyaMur/dao/services/DAOPostService.class
+lyaMur/rest/resources/UserResource.class
+lyaMur/rest/resources/PostsResource.class
 lyaMur/rest/restServices/UserRestService.class
 lyaMur/templater/PageGenerator.class
 lyaMur/servlets/MainServlet.class
