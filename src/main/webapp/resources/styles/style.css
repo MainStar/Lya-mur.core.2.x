@@ -366,7 +366,7 @@
 .pod_all_services > img{
     position:absolute;
 	width: 100%;
-	height: 130%;
+	/*height: 130%;*/
 }
 .pod_services_block_data{
     position:absolute;
@@ -380,7 +380,7 @@
 	width: 1200px;
 	height: 55%;
 	margin-top: 1%;
-	margin-left: 2%;
+	margin: 15px auto;
 }
 .footer{
 	width: 100%;
