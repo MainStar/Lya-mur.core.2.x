@@ -4,7 +4,7 @@ function createPost(){
 	var summary = document.getElementById('summary').value;
 	var mainPageText = document.getElementById('mainPageText').value;
 	var textPost = document.getElementById('textPost').value;
-	var img;
+	var img = window.valueImg;
 	var post = {
 		"summary":summary,
 		"mainPageText":mainPageText,
@@ -13,9 +13,9 @@ function createPost(){
 	};
 
 	var postJson = JSON.stringify(post);
-	xhr.open('POST', "api/create-post", true);
+	xhr.open('POST', "api/create-post/new", true);
 	xhr.onload = function(){
-		alert(xhr.staus);
+		alert(xhr.status);
 	}
 	xhr.send(postJson);
 }

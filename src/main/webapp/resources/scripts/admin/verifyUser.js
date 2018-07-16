@@ -11,7 +11,7 @@ function checkUser(){
     var xhr = new XMLHttpRequest();
     xhr.open('POST', "api/validation/user", true);
     xhr.onload = function(){
-            alert("Test" + xhr.responseText);
+            alert(xhr.responseText);
             var status = xhr.responseText;
             if(status == "valid"){
                 //window.open("http://google.com");

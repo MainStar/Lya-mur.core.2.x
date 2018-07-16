@@ -311,8 +311,8 @@
 	width: 30%;
 	height: 10%;
 	float: right;
-	margin-right: ;
-	margin-top: %;
+	/*margin-right: ;
+	margin-top: %;*/
 	font: 65% sans-serif;
 }
 .blog_link > a{
@@ -359,7 +359,7 @@
 	width: 100%;
 	height: 400px;
 	margin: 0 auto;
-	margin-top:-13%;
+	margin-top:-11%;
 	overflow: hidden;
 	background: black;
 }
@@ -379,7 +379,7 @@
 .contacts{
 	width: 1200px;
 	height: 55%;
-	margin-top: 1%;
+	margin-top: 2.5%;
 	margin: 15px auto;
 }
 .footer{

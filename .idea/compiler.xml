@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Lya-mur core 2.x" target="1.5" />
+      <module name="Lya-mur core 2.x" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

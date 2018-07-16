@@ -16,5 +16,4 @@ public class UserRestService {
         System.out.println(user);
         return user;
     }
-
 }
