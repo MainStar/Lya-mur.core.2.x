@@ -4,11 +4,14 @@ lyaMur/rest/restApiUrl.class
 lyaMur/servlets/DashoardServlet.class
 lyaMur/servlets/AdminLoginServlet.class
 lyaMur/dao/services/DAOUserService.class
+lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class
 Main.class
 lyaMur/dao/services/DAOPostService.class
 lyaMur/rest/resources/UserResource.class
 lyaMur/rest/resources/PostsResource.class
 lyaMur/rest/restServices/UserRestService.class
+lyaMur/servlets/ServicesServlets/TerapyServiceServlet.class
+lyaMur/servlets/ServicesServlets/ZooServiceServlet.class
 lyaMur/templater/PageGenerator.class
 lyaMur/rest/restServices/PostsRestServices.class
 lyaMur/servlets/MainServlet.class

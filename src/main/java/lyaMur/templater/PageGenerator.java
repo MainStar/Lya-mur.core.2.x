@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
+import java.util.HashMap;
 import java.util.Map;
 
 public class PageGenerator {
@@ -23,11 +24,11 @@ public class PageGenerator {
         return pageGenerator;
     }
 
-    public String getPage(String fileName, Map<String, String> data){
+    public String getPage(String fileName, HashMap<String, Object> data){
         Writer stream = new StringWriter();
         try {
 
-            cfg.setDirectoryForTemplateLoading(new File(Constants.HTML_DIR));
+            //cfg.setDirectoryForTemplateLoading(new File(Constants.HTML_DIR));
             Template template = cfg.getTemplate(fileName);
             template.process(data, stream);
         } catch (IOException e) {

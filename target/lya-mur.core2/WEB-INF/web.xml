@@ -13,6 +13,34 @@
         <servlet-name>main</servlet-name>
         <servlet-class>lyaMur.servlets.MainServlet</servlet-class>
     </servlet>
+    
+    <!-- Services -->
+    <servlet-mapping>
+        <servlet-name>serviceLaboratory</servlet-name>
+        <url-pattern>service-laboratory</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>serviceLaboratory</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.LaboratoryServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serviceTerapy</servlet-name>
+        <url-pattern>service-terapy</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>serviceTerapy</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.TerapyServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>zooService</servlet-name>
+        <url-pattern>service-zooshop</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>zooService</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.ZooServiceServlet</servlet-class>
+    </servlet>
+    <!-- ************************************************ -->
+    
     <servlet-mapping>
         <servlet-name>adminLogin</servlet-name>
         <url-pattern>/dashboard-login</url-pattern>
