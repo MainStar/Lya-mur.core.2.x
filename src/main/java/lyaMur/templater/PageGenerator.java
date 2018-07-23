@@ -28,7 +28,7 @@ public class PageGenerator {
         Writer stream = new StringWriter();
         try {
 
-            //cfg.setDirectoryForTemplateLoading(new File(Constants.HTML_DIR));
+            cfg.setDirectoryForTemplateLoading(new File(Constants.HTML_DIR));
             Template template = cfg.getTemplate(fileName);
             template.process(data, stream);
         } catch (IOException e) {
