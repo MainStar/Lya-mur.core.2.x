@@ -10,6 +10,7 @@
 /home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/User.java
 /home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/dao/daoConnector/DaoUser.java
 /home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/servlets/AdminLoginServlet.java
+/home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/Post.java
 /home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/servlets/MainServlet.java
 /home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/rest/Post.java
 /home/mainstar/Idea Projects/Lya-mur core 2.x/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java

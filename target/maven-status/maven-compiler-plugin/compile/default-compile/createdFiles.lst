@@ -5,6 +5,7 @@ lyaMur/servlets/DashoardServlet.class
 lyaMur/servlets/AdminLoginServlet.class
 lyaMur/dao/services/DAOUserService.class
 lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class
+lyaMur/Post.class
 Main.class
 lyaMur/dao/services/DAOPostService.class
 lyaMur/rest/resources/UserResource.class

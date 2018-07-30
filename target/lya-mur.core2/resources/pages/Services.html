@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ЛяМур ${service_name}</title>
-	<meta charset="utf-8">
+	<#if serviceName??>
+		<title>ЛяМур ${serviceName}</title>
+	</#if>
+	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="resources/styles/AllServices.css">
 </head>
 <body>
@@ -29,11 +31,15 @@
 						<div class="service-info-container">
 							<div class="service-info-pod_block">
 								<div class="service-topic">
-									<h3>${serviceTopick}</h3>
+									<#if serviceTopick??>
+										<h3>${serviceTopick}</h3>
+									</#if>
 								</div>
 								<hr align="center" width="100%" size="1" color="black" />
 								<div class="service-info">
-									<h3>${serviceInfo}</h3>
+									<#if serviceInfo??>
+										<h3>${serviceInfo}</h3>
+									</#if>
 								</div>
 							</div>
 						</div>
