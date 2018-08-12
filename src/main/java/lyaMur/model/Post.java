@@ -1,4 +1,4 @@
-package lyaMur.rest;
+package lyaMur.model;
 
 public class Post {
 
@@ -7,11 +7,7 @@ public class Post {
     private String textPost;
     private String image;
 
-    public Post(String summary, String mainPageText, String textPost, String image) {
-        this.summary = summary;
-        this.mainPageText = mainPageText;
-        this.textPost = textPost;
-        this.image = image;
+    public Post() {
     }
 
     public String getSummary() {
@@ -44,5 +40,13 @@ public class Post {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    @Override
+    public String toString() {
+        return "summary = " + summary +
+                ", mainPageText = " + mainPageText +
+                ", textPost = " + textPost +
+                ", image = " + image;
     }
 }

@@ -2,24 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="571e108b-76c5-444f-be8b-2f0df62f5ab0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lyaMur/Post.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/Post.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/Post.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/Service.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lyaMur/Service.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lyaMur/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lyaMur/rest/Post.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/Service.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/Post.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/Service.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/model/Service.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/User.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/rest/Post.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/model/Post.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html" afterPath="$PROJECT_DIR$/src/main/webapp/resources/pages/Service.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/styles/Service.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/dao/daoConnector/DaoUser.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/dao/daoConnector/DaoUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/dao/services/DAOPostService.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/dao/services/DAOPostService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/dao/services/DAOUserService.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/dao/services/DAOUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/rest/resources/PostsResource.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/rest/resources/PostsResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/rest/resources/UserResource.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/rest/resources/UserResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/rest/restServices/PostsRestServices.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/rest/restServices/PostsRestServices.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/rest/restServices/UserRestService.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/rest/restServices/UserRestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/servlets/DashoardServlet.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/servlets/DashoardServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lyaMur/servlets/ServicesServlets/ZooServiceServlet.class" afterPath="$PROJECT_DIR$/target/classes/lyaMur/servlets/ServicesServlets/ZooServiceServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2.war" afterPath="$PROJECT_DIR$/target/lya-mur.core2.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/Main.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/dao/daoConnector/DaoUser.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/dao/daoConnector/DaoUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/dao/services/DAOPostService.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/dao/services/DAOPostService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/dao/services/DAOUserService.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/dao/services/DAOUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/resources/PostsResource.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/resources/PostsResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/resources/UserResource.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/resources/UserResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/restServices/PostsRestServices.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/restServices/PostsRestServices.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/restServices/UserRestService.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/rest/restServices/UserRestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/DashoardServlet.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/DashoardServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/ServicesServlets/ZooServiceServlet.class" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/classes/lyaMur/servlets/ServicesServlets/ZooServiceServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoUser.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOPostService.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOPostService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOUserService.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/UserResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/UserRestService.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/UserRestService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/DashoardServlet.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/DashoardServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ZooServiceServlet.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ZooServiceServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lyaMur/templater/PageGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/lyaMur/templater/PageGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html" afterPath="$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/pages/admin/Dashboard.html" afterPath="$PROJECT_DIR$/src/main/webapp/resources/pages/admin/Dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/pages/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/resources/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/downloadImg.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/downloadImg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/verifyUser.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/verifyUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/scripts/loadMap.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/loadMap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/lya-mur.core2/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/pages/Services.html" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/pages/Services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/pages/admin/Dashboard.html" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/pages/admin/Dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/pages/index.html" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/admin/CreatePost.js" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/admin/CreatePost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/admin/downloadImg.js" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/admin/downloadImg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/admin/verifyUser.js" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/admin/verifyUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/loadMap.js" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/scripts/loadMap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lya-mur.core2/resources/styles/AllServices.css" afterPath="$PROJECT_DIR$/target/lya-mur.core2/resources/styles/AllServices.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
@@ -36,89 +83,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DaoPosts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoPosts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1534076407884" expanded="true" signature="1067:1129" ph=" INSERT statement (POSTS)" />
+                <marker date="1534076407884" expanded="true" signature="1067:1137" ph=" INSERT statement (POSTS)" />
+                <marker date="1534076407884" expanded="true" signature="1067:1165" ph=" INSERT statement (POSTS)" />
+                <marker date="1534076407884" expanded="true" signature="1067:1199" ph=" INSERT statement (POSTS)" />
+                <marker date="1534076407884" expanded="true" signature="1067:1229" ph=" INSERT statement (POSTS)" />
+                <marker date="1534076407884" expanded="true" signature="1067:1265" ph=" INSERT statement (POSTS)" />
+                <marker date="1534076407884" expanded="true" signature="1467:1521" ph=" SELECT statement" />
+                <marker date="1534076407884" expanded="true" signature="1467:1564" ph=" SELECT statement (POSTS)" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAOPostService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOPostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PostsResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/MainPage.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+              <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostsRestServices.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java">
+      <file leaf-file-name="Post.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/model/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LaboratoryServiceServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TerapyServiceServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="561">
+              <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Services.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="66" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="190" column="62" lean-forward="false" selection-start-line="190" selection-start-column="62" selection-end-line="190" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="442">
+              <caret line="131" column="62" lean-forward="false" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="CreatePost.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -159,9 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MainServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/templater/MainPageGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/AdminLoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/services/DAOUserService.java" />
@@ -170,38 +213,49 @@
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/restApiUrl.java" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/User.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOUserService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/admin/adminLogin.html" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/UserActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/DashoardServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/services.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/footer.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/contacts.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/admin/Dashboard.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/verifyUser.js" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/UserRestService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/downloadImg.js" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/Post.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js" />
-        <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServletService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ZooServiceServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Services.html" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/templater/PageGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Services.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/pages/Services.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/Post.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ZooServiceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/GrumingServiceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ConsultationServiceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/HirurgyServiceServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/Service.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/AllServicesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/servlets/DashoardServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/verifyUser.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/admin/Dashboard.html" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/downloadImg.js" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/model/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/loadMap.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoPosts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOPostService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/MainPage.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/index.html" />
       </list>
     </option>
   </component>
@@ -287,6 +341,63 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="daoConnector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lyaMur" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,15 +432,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,7 +441,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lya-mur core 2.x" type="b2602c69:ProjectViewProjectNode" />
@@ -358,17 +480,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lya-mur core 2.x" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Lya-mur core 2.x" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -382,6 +493,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lya-mur core 2.x" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Lya-mur core 2.x" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,18 +515,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/styles" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/pages" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/views/pages" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -541,7 +663,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="187" width="1311" height="783" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -565,7 +686,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61349696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26282558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27071825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -580,44 +701,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61349696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28255722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -627,95 +710,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/admin/adminLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="80" lean-forward="true" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/templater/PageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="77" lean-forward="true" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="99" lean-forward="true" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/templater/PageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOPostService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="99" lean-forward="false" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/admin/adminLogin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -738,28 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/DashoardServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/admin/adminLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -771,13 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -800,66 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/verifyUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/downloadImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/admin/Dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/UserRestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ZooServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -884,11 +798,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/Service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
@@ -900,78 +813,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/Service.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ZooServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="85" lean-forward="false" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/ConsultationServiceServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        <state relative-caret-position="425">
+          <caret line="25" column="85" lean-forward="true" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/model/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/Service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="302">
+          <caret line="105" column="47" lean-forward="false" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+        <state relative-caret-position="612">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="190" column="62" lean-forward="false" selection-start-line="190" selection-start-column="62" selection-end-line="190" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/styles/AllServices.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <caret line="237" column="13" lean-forward="false" selection-start-line="237" selection-start-column="13" selection-end-line="237" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -979,8 +894,225 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/Services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="66" selection-end-column="38" />
+          <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/TerapyServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/UserRestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/GrumingServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/posts/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/HirurgyServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/ServicesServlets/AllServicesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/servlets/DashoardServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/admin/Dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/verifyUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/downloadImg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1534072318894" expanded="true" signature="1110:1174" ph=" SELECT statement (USERS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/loadMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/restServices/PostsRestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/daoConnector/DaoPosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1534076407884" expanded="true" signature="1067:1129" ph=" INSERT statement (POSTS)" />
+            <marker date="1534076407884" expanded="true" signature="1067:1137" ph=" INSERT statement (POSTS)" />
+            <marker date="1534076407884" expanded="true" signature="1067:1165" ph=" INSERT statement (POSTS)" />
+            <marker date="1534076407884" expanded="true" signature="1067:1199" ph=" INSERT statement (POSTS)" />
+            <marker date="1534076407884" expanded="true" signature="1067:1229" ph=" INSERT statement (POSTS)" />
+            <marker date="1534076407884" expanded="true" signature="1067:1265" ph=" INSERT statement (POSTS)" />
+            <marker date="1534076407884" expanded="true" signature="1467:1521" ph=" SELECT statement" />
+            <marker date="1534076407884" expanded="true" signature="1467:1564" ph=" SELECT statement (POSTS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/admin/CreatePost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/rest/resources/PostsResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/dao/services/DAOPostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lyaMur/model/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/scripts/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="131" column="62" lean-forward="false" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

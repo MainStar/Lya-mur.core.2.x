@@ -62,6 +62,14 @@
         <url-pattern>service-terapy</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>serviceGruming</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.GrumingServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serviceGruming</servlet-name>
+        <url-pattern>service-gruming</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>serviceTerapy</servlet-name>
         <servlet-class>lyaMur.servlets.ServicesServlets.TerapyServiceServlet</servlet-class>
     </servlet>
@@ -73,6 +81,30 @@
         <servlet-name>zooService</servlet-name>
         <servlet-class>lyaMur.servlets.ServicesServlets.ZooServiceServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>serviceHirurgy</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.HirurgyServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serviceHirurgy</servlet-name>
+        <url-pattern>service-hirurgy</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>serviceConsultation</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.ConsultationServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serviceConsultation</servlet-name>
+        <url-pattern>service-consultation</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>allServices</servlet-name>
+        <servlet-class>lyaMur.servlets.ServicesServlets.AllServicesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allServices</servlet-name>
+        <url-pattern>all-services</url-pattern>
+    </servlet-mapping>
     <!-- ************************************************ -->
     
     <servlet-mapping>

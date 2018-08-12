@@ -39,9 +39,9 @@ public class Main {
         Writer stream = new StringWriter();
         try {
 //            cfg.setDirectoryForTemplateLoading(new File(Constants.HTML_DIR));
-            File f = new File("src/main/webapp/views/pages/Services.html");
+            File f = new File("src/main/webapp/views/pages/Service.html");
             System.out.println(f.exists());
-            Template template = cfg.getTemplate("src/main/webapp/views/pages/" + "Services.html");
+            Template template = cfg.getTemplate("src/main/webapp/views/pages/" + "Service.html");
             template.process(data, stream);
         } catch (IOException e) {
             e.printStackTrace();

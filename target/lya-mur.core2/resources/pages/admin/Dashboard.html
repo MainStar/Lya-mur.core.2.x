@@ -6,6 +6,13 @@
 	<meta charset="UTF-8"/>
 	<script type="text/javascript" src="resources/scripts/admin/downloadImg.js"></script>
 	<script type="text/javascript" src="resources/scripts/admin/CreatePost.js"></script>
+	<script>
+		var loginStatus = document.cookie.replace(/(?:(?:^|.*;\s*)status\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+		if(loginStatus != "valid"){
+			alert(loginStatus);
+			location.replace("/lya-mur.core2/dashboard-login/");
+		}
+	</script>
 </head>
 <body>
 <div class="main_container">

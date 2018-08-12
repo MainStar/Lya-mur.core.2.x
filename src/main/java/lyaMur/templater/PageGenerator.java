@@ -30,7 +30,7 @@ public class PageGenerator {
         Writer stream = new StringWriter();
         /*try {
             //cfg.setDirectoryForTemplateLoading(new File("webapp/views/pages/" + fileName));
-            File f = new File("/src/main/webapp/views/pages/Services.html");
+            File f = new File("/src/main/webapp/views/pages/Service.html");
             System.out.println(f.exists());
             Template template = cfg.getTemplate("/src/main/webapp/views/pages/" + fileName);
             template.process(data, stream);

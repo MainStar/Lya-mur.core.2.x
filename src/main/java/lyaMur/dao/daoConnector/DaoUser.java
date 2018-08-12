@@ -1,6 +1,6 @@
 package lyaMur.dao.daoConnector;
 
-import lyaMur.User;
+import lyaMur.model.User;
 
 import java.sql.*;
 import java.util.ArrayList;

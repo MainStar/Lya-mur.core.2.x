@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/styles/footer.css">
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbEdIP3fPgSHadoxXBWCPKIQWrJWPJSGI&callback=initMap"></script>
 	<script type="text/javascript" src="resources/scripts/loadMap.js"></script>
+	<script type="text/javascript" src="resources/scripts/MainPage.js"></script>
 	<link rel="icon" type="image/png" href="resources/images/icons/favicon96.png">
 </head> 
 <body> 
@@ -112,23 +113,23 @@
 		</div>
 		<div class="container_blog_services">
 			<div class="block_blog_map_weather">
-				<div class="block_blog">
+				<div class="block_blog" id="block_blog">
 					<div class="block_name_block">
 						<a href=""><h4>Наш Блог</h4></a>
 					</div>
-					<div class="blog_post">
-						<div class="blog_img">
+					<div class="blog_post" id="blog_post">
+						<div class="blog_img" id="blog_img">
 							<img src="resources/images/klesh.jpg">
 						</div>
-						<div class="blog_info">
-							<div class="summary">
+						<div class="blog_info" id="blog_info">
+							<div class="summary" id="summary">
 								<a href=""><h4>Если животное укусил клещ, что делать в домашних условиях?</h4>	</a>
 							</div>
-							<div class="info">
+							<div class="info" id="info">
 								<a><h4>Активность клещей в меняется в теплое время года, но вероятность укуса все 	это время остается.</h4></a>
 							</div>
 						</div>
-						<div class="blog_link">
+						<div class="blog_link" id="blog_link">
 							<a href=" "><h4>Читать далее</h4></a>
 						</div>
 					</div>
@@ -167,7 +168,7 @@
 							</a>
 						</div>
 						<div class="service">
-							<a href=" ">
+							<a href="service-gruming">
 								<div class="pod_service">
 									<img src="resources/images/gruming.jpg">
 									<div class="summary_service">
@@ -195,7 +196,7 @@
 							</a>
 						</div>
 						<div class="service">
-							<a href=" ">
+							<a href="service-hirurgy">
 								<div class="pod_service">
 									<img src="resources/images/hirurg.jpg">
 									<div class="summary_service">
@@ -223,7 +224,7 @@
 							</a>
 						</div>
 						<div class="service">
-							<a href=" ">
+							<a href="service-consultation">
 								<div class="pod_service">
 									<img src="resources/images/konsultant.jpg">
 									<div class="summary_service">
@@ -239,7 +240,7 @@
 				</div>
 				<div class="button_services">
 						<div class="all_services_button">
-							<a href=" "><h4>Все услуги</h4></a>
+							<a href="all-services"><h4>Все услуги</h4></a>
 						</div>
 					</div>
 			</div>
@@ -288,7 +289,7 @@
 			<div class="footer_pod">
 				<div class="footer_info">
 					<div class="footer_info_name">
-						<a href="">Услуги</a>
+						<a href="all-services">Услуги</a>
 					</div>
 					<div class="footer_info_information">
 						<p><a href=" ">Хирургия</a></p>
@@ -338,5 +339,5 @@
 			</div>
 		</div>
 	</div>
-</body> 
+</body>
 </html>

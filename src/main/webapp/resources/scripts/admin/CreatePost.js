@@ -13,7 +13,7 @@ function createPost(){
 	};
 
 	var postJson = JSON.stringify(post);
-	xhr.open('POST', "api/create-post/new", true);
+	xhr.open('POST', "api/post/new", true);
 	xhr.onload = function(){
 		alert(xhr.status);
 	}

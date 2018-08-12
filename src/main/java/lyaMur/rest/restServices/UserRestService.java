@@ -1,6 +1,6 @@
 package lyaMur.rest.restServices;
 
-import lyaMur.User;
+import lyaMur.model.User;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import java.io.IOException;

@@ -13,7 +13,6 @@ function newImage(){
   } else {
     preview.src = "";
   }
-
 }
 
 function getFileReaderResult(){

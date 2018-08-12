@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<#if serviceName??>
-		<#else>
-		<#list post as post>
-			<title>ЛяМур ${post.serviceName}</title>
-		</#list>
-	</#if>
-	<meta charset="utf-8"/>
+	<title>ЛяМур услуги</title>
 	<link rel="stylesheet" type="text/css" href="resources/styles/AllServices.css">
 </head>
 <body>
@@ -24,9 +18,6 @@
 								<ul>
 									<li>
 										<a href="/"><h4>Главная страница</h4></a>
-									</li>
-									<li>
-										<a href=""><h4>Все услуги</h4></a>
 									</li>
 									<li>
 										<a href=""><h4>Контакты</h4></a>
@@ -48,30 +39,96 @@
 							</div>
 						</div>
 					</div>
-					<div class="service-container">
-						<div class="service-img-container">
-							<div class="img-block">
-								<#list post as post>
-									<img src="${post.imageUrl}" alt="Service image">
-								</#list>
+					<div class="services-container">
+						<div class="name-container-services">
+							<div class="name">
+								<div class="pod-name">
+									<a><h4>Наши <span style="color: blue;">Услуги</span></h4></a>
+								</div>
 							</div>
 						</div>
-						<div class="service-info-container">
-							<div class="service-info-pod_block">
-								<div class="service-topic">
-									<#list post as post>
-										<#if post.serviceTopick??>
-											<h3>${post.serviceTopick}</h3>
-										</#if>
-									</#list>
+						<div class="services">
+							<div class="service">
+								<div class="service-image">
+									<img src="resources/images/lab.jpg" alt="ЛяМур - Лаборатория"/>
 								</div>
-								<hr align="center" width="100%" size="1" color="black" />
 								<div class="service-info">
-									<#list post as post>
-										<#if post.serviceInfo??>
-											<h3>${post.serviceInfo}</h3>
-										</#if>
-									</#list>
+									<div class="info">
+										<a href="">Лаборатория</a><span style="font-family: Arial;"> - одним из найболее эфективных этапов 	обследования Вашего питомца является лабораторные иследования, что позволяет максимально точно и быстро поставить диагноз.</span>
+									</div>
+									<div class="info-service-link">
+										<a href=""><h4>Перейти на страницу услуги</h4></a>
+									</div>
+								</div>
+							</div>
+							<hr align="center" width="99.8%" size="2" color="black" />
+							<div class="service">
+								<div class="service-image">
+									<img src="resources/images/terapy.jpg" alt="ЛяМур - Терапия"/>
+								</div>
+								<div class="service-info">
+									<div class="info">
+										<a href="">Терапия</a><span style="font-family: Arial;"> - грамотный и индивидуальный подход к каждому животному позволяет обнаружить симптомы заболивания у каждого животного.</span>
+									</div>
+									<div class="info-service-link">
+										<a href=""><h4>Перейти на страницу услуги</h4></a>
+									</div>	
+								</div>
+							</div>
+							<hr align="center" width="99.8%" size="2" color="black" />
+							<div class="service">
+								<div class="service-image">
+									<img src="resources/images/pet_shop.jpg" alt="ЛяМур - Zoo магазин"/>
+								</div>
+								<div class="service-info">
+									<div class="info">
+										<a href="">Zoo магазин</a><span style="font-family: Arial;"> - благодаря огромному выбору средств по уходу за Вашим любимцем и препаратов по</span>
+									</div>
+									<div class="info-service-link">
+										<a href=""><h4>Перейти на страницу услуги</h4></a>
+									</div>	
+								</div>
+							</div>
+							<hr align="center" width="99.8%" size="2" color="black" />
+							<div class="service">
+								<div class="service-image">
+									<img src="resources/images/gruming.jpg" alt="ЛяМур - Груминг"/>
+								</div>
+								<div class="service-info">
+									<div class="info">
+										<a href="">Груминг</a><span style="font-family: Arial;"> - </span>
+									</div>
+									<div class="info-service-link">
+										<a href=""><h4>Перейти на страницу услуги</h4></a>
+									</div>
+								</div>
+							</div>
+							<hr align="center" width="99.8%" size="2" color="black" />
+							<div class="service">
+								<div class="service-image">
+									<img src="resources/images/hirurg.jpg" alt="ЛяМур - Хирургия"/>
+								</div>
+								<div class="service-info">
+									<div class="info">
+										<a href="">Хирургия</a><span style="font-family: Arial;"> - работа на основе современных технологий, основаных на международных стандартах лечений и критериях 	доказательной медицыны.</span>
+									</div>
+									<div class="info-service-link">
+										<a href=""><h4>Перейти на страницу услуги</h4></a>
+									</div>	
+								</div>
+							</div>
+							<hr align="center" width="99.8%" size="2" color="black" />
+							<div class="service">
+								<div class="service-image">
+									<img src="resources/images/konsultant.jpg" alt="ЛяМур - Консультация"/>
+								</div>
+								<div class="service-info">
+									<div class="info">
+										<a href="">Консультация</a><span style="font-family: Arial;"> - Бесплатная консультация врача по 	телефону позволит </span>
+									</div>
+									<div class="info-service-link">
+										<a href=""><h4>Перейти на страницу услуги</h4></a>
+									</div>	
 								</div>
 							</div>
 						</div>
@@ -80,19 +137,54 @@
 			</div>
 		</div>
 		<div class="footer">
-			<div class="footer-first_block">
-				<div class="footer-info-container">
-					<div class="footer-info">
-						
+			<div class="footer_pod">
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Услуги</a>
 					</div>
-					<div class="footer-info">
-						
+					<div class="footer_info_information">
+						<p><a href=" ">Хирургия</a></p>
+						<p><a href=" ">Вакцинация</a></p>
+						<p><a href=" ">Чипирование</a></p>
+						<p><a href=" ">Ветврач на дом</a></p>
+						<p><a href=" ">Весь список услуг</a></p>
 					</div>
-					<div class="footer-info">
-						
+				</div>
+				<div class="footer_info" style="padding-top: -10%;">
+					<div class="footer_info_name">
+						<a href="">Клиника</a>
 					</div>
-					<div class="footer-info">
-						
+					<div class="footer_info_information">
+						<p><a href=" ">Врачи</a></p>
+						<p><a href=" ">Фотогалерея</a></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Врачам</a>
+					</div>
+					<div class="footer_info_information">
+						<p><a href=" ">Практика для студентов</a></p>
+						<p><a href=" ">Врачам</a></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Контакты</a>
+					</div>
+					<div class="footer_info_information">
+						<div class="footer_info_information_pod">
+							<p>Звоните:</p>
+							<p>+380 (68) 577-88-77</p>
+						</div>
+						<div class="footer_info_information_pod">
+							<p>Пишите:</p>
+							<p>veterinari_doktor@ukr.net</p>
+						</div>
+						<div class="footer_info_information_pod">
+							<p>Приезжайте:</p>
+							<p>г. Кривой Рог, Проспкт Гагарина 27</p>
+						</div>
 					</div>
 				</div>
 			</div>

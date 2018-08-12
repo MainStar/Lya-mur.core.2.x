@@ -1,4 +1,4 @@
-package lyaMur;
+package lyaMur.model;
 
 public class User {
 

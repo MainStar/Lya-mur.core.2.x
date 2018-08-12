@@ -15,7 +15,13 @@ function checkUser(){
             var status = xhr.responseText;
             if(status == "valid"){
                 //window.open("http://google.com");
+                var date = new Date(new Date().getTime() + 60 * 60000);
+                document.cookie = "status=valid; expires=" + date + "; path=/;";
                 location.replace("/lya-mur.core2/dashboard");
+            }else{
+                if(status == "invalid"){
+                    alert("Логин или пароль введены неверно!")
+                }
             }
     };
     xhr.send(userJson);

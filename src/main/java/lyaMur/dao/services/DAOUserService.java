@@ -1,7 +1,7 @@
 package lyaMur.dao.services;
 
 
-import lyaMur.User;
+import lyaMur.model.User;
 import lyaMur.dao.daoConnector.DaoUser;
 
 import java.sql.SQLException;

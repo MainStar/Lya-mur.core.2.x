@@ -1,6 +1,6 @@
 package lyaMur.servlets.ServicesServlets;
 
-import lyaMur.Service;
+import lyaMur.model.Service;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,17 +12,19 @@ import java.util.List;
 
 public class LaboratoryServiceServlet extends HttpServlet {
 
-    private Service service = new Service("Лаборатория", "resources/images/lab.jpg", "Лаборатория", "Одним из найболее эфективных этапов " +
+    private static Service service = new Service("Лаборатория", "resources/images/lab.jpg", "Лаборатория", "Одним из найболее эфективных этапов " +
             "\tобследования Вашего питомца является лабораторные иследования, что позволяет " +
             "максимально точно и быстро поставить диагноз.");
-    private List<Service> data = new ArrayList<>();
+    private static List<Service> data = new ArrayList<>();
+    static {
+        data.add(service);
+    }
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        data.add(service);
         resp.setContentType("text/html;charset=UTF-8;");
         req.setAttribute("post", data);
-        req.getRequestDispatcher("resources/pages/Services.html").forward(req, resp);
+        req.getRequestDispatcher("resources/pages/Service.html").forward(req, resp);
     }
 }

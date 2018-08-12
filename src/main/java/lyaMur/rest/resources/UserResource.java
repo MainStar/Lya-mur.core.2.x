@@ -1,6 +1,6 @@
 package lyaMur.rest.resources;
 
-import lyaMur.User;
+import lyaMur.model.User;
 import lyaMur.dao.services.DAOUserService;
 import lyaMur.rest.restServices.UserRestService;
 
