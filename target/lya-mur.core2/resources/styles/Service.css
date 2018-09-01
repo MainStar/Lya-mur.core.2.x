@@ -1,0 +1,188 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.page{
+	width: 100%;
+	height: 1000px;
+	background: #DCDCDC;
+}
+/* Конфигурация всего блока ХЕДЕРА */
+.head{
+	width: 100%;
+	height: 50px;
+	background: #0467FB;
+}
+.header-wraper{
+	height: 90%;
+	width: 1200px;
+	float: left;
+	margin-top: 0.19319%;
+	margin-left: 5%;
+}
+.header{
+    width: 90%;
+    height: 100%;
+}
+.header-logo-block{
+	height: 100%;
+	width: 15%;
+	margin-left:1%;
+	float: left;
+}
+.header-logo-block > img{
+	width: 100%;
+	margin-top: -13%;
+	height: 200%;
+}
+.header-menu-block{
+	width: 84%;
+	height: 100%;
+	float: right;
+}
+.service-menu{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.service-menu > ul{
+    list-style-type: none;
+    /*float: right;*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+.service-menu > ul > li{
+	/*margin-left: 5%;*/
+	display: inline-block;
+}
+.service-menu > ul > li > a{
+    display: block;
+    padding: 13.5px 16px;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+}
+.service-menu > ul > li > a:hover{
+    background: #0000CD;
+    border-bottom: 3px solid white;
+}
+/* ****************************** */
+
+/* Конфигурцаия блока Контейнер */
+.container{
+	width: 100%;
+	height: 800px;
+}
+.container-layout{
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+	background: #DCDCDC;
+}
+.pod-container{
+	width: 90%;
+	height: 80%;
+	margin-left: 5%;
+	margin-top: 80px;
+	float: left;
+	background: white;
+}
+.back-to-main-block{
+	width: 100%;
+	height: 10%;
+	/*background: #DCDCDC;*/
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+}
+.sub-link-class{
+	width: 50%;
+	height: 80%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 6px;
+}
+.link-to-main-page{
+	width: 80%;
+	height: 80%;
+	float: left;
+	margin-top: 5px;
+}
+.link-to-main-page > a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin-top: 11px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	font-family: Arial;
+}
+.service-container{
+	width: 90%;
+	height: 80%;
+	margin: 31px auto;
+	background: black;
+}
+.service-img-container{
+	width: 40%;
+	height: 100%;
+	float: left;
+	background: white;
+}
+.img-block{
+	width: 80%;
+	height: 60%;
+	margin: 11% auto;
+	border: 1px solid black;
+}
+.img-block > img {
+	width: 100%;
+	height: 100%;
+}
+.service-info-container{
+	width: 60%;
+	height: 100%;
+	float: right;
+	background: white;
+}
+.service-info-pod_block{
+	width: 100%;
+	height: 92%;
+	float: left;
+	margin-top: 7%;
+}
+.service-topic{
+	width: 100%;
+	height: 10%;
+	text-align: left;
+	font-size: 20px;
+	font-family: Arial;
+}
+.service-info{
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+}
+
+/* **************************** */
+
+/* Конфигурация блока ФУТЕРА */
+.footer{
+	width: 100%;
+	height: 200px;
+	background: black;
+	opacity: 0.8;
+}
+.footer-first_block{
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+	background: white;
+}
+.footer-info-container{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	background: black;
+}

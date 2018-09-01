@@ -1,0 +1,417 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main_container{
+	width: 100%;
+	height: 1000px;
+}
+.head{
+	width: 100%;
+	height: 15%;
+}
+.pod_head{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+	box-shadow: 0 0 7px grey;
+}
+.logo{
+	float: left;
+	margin-top: -%;
+	margin-left: 3%;
+	width: 22%;
+	height: 90%;
+	overflow: hidden;
+	/*background: url("../images/logo.png");*/
+	/*background: black;*/
+	background-size: cover;
+}
+.logo > img {
+	width:100%;
+	height:100%;
+}	
+.block_info{
+	float: right;
+	width: 66%;
+	margin-right: 1%;
+	height: 95%;
+	/*box-shadow: 0 0 7px grey;*/
+	/*border: 1px solid grey;*/
+}
+.menu{
+	margin-top: 0.7%;
+	width: 100%;
+	height: 21%;
+}
+.main_menu{
+	margin-left: 2%;
+	width: 100%;
+	height: 100%;
+}
+.main_menu > li{
+	width: 23%;
+	height: 100%;
+	float: left;
+	margin-left: 1%;
+	display: table-cell;
+	background: #0467FB;
+	text-align: center;
+	box-shadow: 0 0 5px grey;
+}
+.main_menu > li > a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font: 104% sans-serif;
+	margin-top: 2%;
+}
+/**************************************/
+/* ********************************** */
+.block_contacts_in_head{
+	width: 100%;
+	height: 100%;
+	margin-top: 2%;
+}
+.phone{
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-left: 3%;
+	margin-top: 1%;
+}
+.phone > a{
+	text-decoration: none;
+	color: black;
+}
+.phone > a > h4{
+	font: 115% sans-serif;
+}
+.addres{
+	float: left;
+	width: 35%;
+	height: 100%;
+	margin-left: -3%;
+	margin-top: 1%;
+}
+.addres > a{
+	text-decoration: none;
+	color: black;
+}
+.addres > a > h4{
+	font: 115% sans-serif;
+}
+.schedule{
+	float: right;
+	margin-top: 1%;
+	width: 30%;
+}
+.schedule > a{
+	text-decoration: none;
+	color: black;
+}
+.schedule > a > h4{
+	font: 115% sans-serif;
+}
+
+/* Конфигурация Блока под синим блоком */
+.photo_class_under_serviceInTop{
+	width: 100%;
+	height: 550px;
+	margin: auto;
+}
+.frame_img{
+	position: relative;
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+}
+.frame_img > img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.under_photo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) , rgba(0, 0, 0, 0.1) 100%);
+}
+.left_block{
+	width: 50%;
+	height: 100%;
+}
+.name{
+	width: 100%;
+	height: 30%;
+	margin-top: 20%;
+	font-size: 2.2rem;
+	font-family: "Arial";
+	text-align: center;
+	font-weight: 500;
+	color: #e2231a;
+}
+.buton_location{
+	width: 24%;
+	height: 12%;
+	background: white;
+	border: 2px solid #e2231a;
+	margin: 0 auto;
+}
+.buton_location{
+	position: relative;
+	text-align: center;
+	color: #e2231a;
+}
+.button_location:hover{
+	background: red;
+}
+.buton_location > a{
+	position: absolute;
+	width: 100%;
+	/*height: 100%;*/
+	padding-top: 11%;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #e2231a;
+	display: block;
+}
+
+/* *********************************** */
+/* Конфигурация блока услуг в СИНЕЙ ПОЛОСЕ */
+.services{
+	float: left;
+	margin-top: 0.4%;
+	width: 100%;
+	height: 8.7%;
+	background: #0467FB;
+	box-shadow: 0 0 5px grey;
+}
+.services_in_top{
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+}
+.services_in_top_img{
+    width:90%;
+    height:100%;
+    margin:0 auto;
+}
+.service_img{
+	width: 19%;
+	height: 90%;
+	margin-top: 3px;
+	display: inline-block;
+	overflow: hidden;
+}
+.service_img > a{
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	height: 68%;
+}
+.service_img > a > img{
+	width: 100%;
+	height: 100%;
+	/*margin-left: 40%;*/
+	/*margin-top: 5%;*/
+	margin: 5px auto;
+}
+.service_img > a > img:hover{
+	/*background: #08298A;*/
+}
+.service_img_info{
+	color: white;
+	font: 100% sans-serif;
+	margin-top: 8px;
+	width:100%;
+}
+.service_img_info > a{
+	/*margin-left: 7%;*/
+	width: 100%;
+	height: 100%;
+}
+.service_img_info > a > h4{
+	display: block;
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 90%;
+}
+.container_blog_services{
+	width: 1200px;
+	height: 125%;
+	margin: 0 auto;
+}
+
+/* Конфигурация блока с картой, блогом и погодой */
+.block_blog_map_weather{
+	float: right;
+	margin-right: 0.1%;
+	margin-top: 0.2%;
+	width: 25%;
+	height: 63%;
+}
+/* *********************************************** */
+/* *********** Отрисовка блока БЛОГА   ******* */
+.block_blog{
+	overflow-y: auto;
+	overflow-x: hidden;
+	/*float: right;*/
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 10px grey;
+}
+.block_name_block{
+	width: 100%;
+	height: 7%;
+	background: #0467FB;
+	font-size: 170%;
+	border-top: 0.2px solid white;
+	border-bottom: 0.2px solid white;
+}
+.block_name_block > a{
+	text-decoration: none;
+	color: white;
+}
+.block_name_block > a > h4{
+	margin-top: 5%;
+	height: 100%;
+	text-align: center;
+	font: 90% sans-serif;
+}
+.blog{
+    width:100%;
+    height:92%;
+}
+.blog_post{
+	width: 100%;
+	height: 20%;
+	border-bottom: 0.02px solid grey;
+}
+.blog_img{
+	float: left;
+	width: 30%;
+	height: 80%;
+	margin-top: 2%;
+	margin-left: 3%;
+	overflow: hidden;
+	border: 1px solid #F2F2F2;
+	background: black;
+}
+.blog_img > img{
+	width: 100%;
+	height: 100%;
+}
+.blog_info{
+	float: right;
+	width: 65%;
+	height: 80%;
+	margin-top: 2%;
+	margin-right: 1%;
+	/*background: black;*/
+}
+.summary{
+	width: 100%;
+	height: 35%;
+	font-size: 70%;
+	margin-left: 1%;
+	background: #F2F2F2;
+}
+.summary > a {
+	color: #0467FB;
+	/*margin-top: 10%;*/
+	text-decoration: none;
+}
+.info{
+	width: 100%;
+	height: 64%;
+	margin-top: 5%;
+	margin-left: 1%;
+	font: 65% sans-serif;
+	/*background: black;*/
+}
+
+.blog_link{
+	width: 30%;
+	height: 10%;
+	float: right;
+	/*margin-right: ;
+	margin-top: %;*/
+	font: 65% sans-serif;
+}
+.blog_link > a{
+	color: black;
+}
+/* ************************************ */
+
+/* Конфигурация блока карты */
+.map{
+	float: right;
+	left: 71%;
+	top: 30.5%;
+	margin-top: 2%;
+	width: 100%;
+	height: 35%;
+	box-shadow: 0 0 10px grey;
+}
+.map_name{
+	margin-top: 0.2%;
+	width: 100%;
+	height: 14%;
+	background: #0467FB;
+}
+.map_name > a{
+	height: 100%;
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.map_name > a > h4{
+	font: 106% sans-serif;
+	padding-top: 3.3%;
+}
+.map_img{
+	margin-top: 0.2%;
+	width: 100%;
+	height: 85%;
+}
+
+/*Конфигурация блока под всему услугами*/
+.pod_all_services{
+    position:relative;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	margin-top:-11%;
+	overflow: hidden;
+	background: black;
+}
+.pod_all_services > img{
+    position:absolute;
+	width: 100%;
+	/*height: 130%;*/
+}
+.pod_services_block_data{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:black;
+    opacity:0.7;
+}
+
+.contacts{
+	width: 1200px;
+	height: 55%;
+	/*margin-top: 3.5%;*/
+	margin: 4.5% auto;
+}
+.footer{
+	width: 100%;
+	height: 33%;
+	margin-top: 2%;
+	background: black;
+	opacity: 0.9;
+}
