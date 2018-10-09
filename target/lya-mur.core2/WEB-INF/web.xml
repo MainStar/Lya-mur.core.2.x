@@ -3,15 +3,12 @@
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 <web-app>
 
-<<<<<<< HEAD
     <display-name>lya-mur.core2</display-name>
     <context-param>
         <param-name>upload.images.resources</param-name>
         <param-value>/WEB-INF/postImages</param-value>
     </context-param>
-=======
     <display-name>Archetype Created Web Application</display-name>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 
     <servlet>
         <servlet-name>main</servlet-name>
@@ -59,11 +56,7 @@
     <!-- Services -->
     <servlet-mapping>
         <servlet-name>serviceLaboratory</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/service-laboratory</url-pattern>
-=======
-        <url-pattern>service-laboratory</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <servlet>
         <servlet-name>serviceLaboratory</servlet-name>
@@ -71,11 +64,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>serviceTerapy</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/service-terapy</url-pattern>
-=======
-        <url-pattern>service-terapy</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <servlet>
         <servlet-name>serviceGruming</servlet-name>
@@ -83,11 +72,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>serviceGruming</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/service-gruming</url-pattern>
-=======
-        <url-pattern>service-gruming</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <servlet>
         <servlet-name>serviceTerapy</servlet-name>
@@ -95,11 +80,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>zooService</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/service-zooshop</url-pattern>
-=======
-        <url-pattern>service-zooshop</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <servlet>
         <servlet-name>zooService</servlet-name>
@@ -111,11 +92,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>serviceHirurgy</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/service-hirurgy</url-pattern>
-=======
-        <url-pattern>service-hirurgy</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <servlet>
         <servlet-name>serviceConsultation</servlet-name>
@@ -123,11 +100,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>serviceConsultation</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/service-consultation</url-pattern>
-=======
-        <url-pattern>service-consultation</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <servlet>
         <servlet-name>allServices</servlet-name>
@@ -135,11 +108,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>allServices</servlet-name>
-<<<<<<< HEAD
         <url-pattern>/all-services</url-pattern>
-=======
-        <url-pattern>all-services</url-pattern>
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
     </servlet-mapping>
     <!-- ************************************************ -->
     

@@ -5,7 +5,7 @@ window.onload = function(){
 	    document.getElementById("container_blog_services").style.margin = '130px auto';
     	document.getElementById("pod_all_services").style.marginTop = '-17%';
     }
-    if(window.innerHTML <= 1200){
+    if(window.innerWidth <= 1200){
         document.getElementById("photo_class_under_serviceInTop").style.height = '52%';
         document.getElementById("container_blog_services").style.margin = '0 auto';
         document.getElementById("pod_all_services").style.marginTop = '-11%';

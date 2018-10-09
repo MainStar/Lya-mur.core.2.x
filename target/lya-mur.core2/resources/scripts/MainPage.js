@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 window.onload = function(){
     if (window.innerWidth > 1200) {
         //alert(window.innerWidth);
@@ -6,12 +5,18 @@ window.onload = function(){
 	    document.getElementById("container_blog_services").style.margin = '130px auto';
     	document.getElementById("pod_all_services").style.marginTop = '-17%';
     }
-    if(window.innerHTML <= 1200){
+    if(window.innerWidth <= 1200){
         document.getElementById("photo_class_under_serviceInTop").style.height = '52%';
         document.getElementById("container_blog_services").style.margin = '0 auto';
         document.getElementById("pod_all_services").style.marginTop = '-11%';
     }
 }
+$( document ).ready(function() {
+  $('.trigger').on('click', function() {
+     $('.modal-wrapper').toggleClass('open');
+     return false;
+  });
+});
 
 var xhr = new XMLHttpRequest();
 xhr.open('POST', "api/post/getPosts", true);
@@ -67,10 +72,6 @@ xhr.onload = function(){
         blog_link.appendChild(a);
             a.appendChild(h4);
     }
-=======
-var xhr = new XMLHttpRequest();
-xhr.open('POST', "api/post/getPosts", true);
-xhr.onload = function(){
     alert(xhr.responseText);
     var root = document.getElementById('block_blog');
         var blog_post = document.createElement('div');
@@ -116,6 +117,5 @@ xhr.onload = function(){
         a.appendChild(h4);
 
     alert(document.getElementById('summary').textContent);
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 }
 xhr.send();

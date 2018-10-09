@@ -9,10 +9,7 @@
 }
 /* Конфигурация всего блока ХЕДЕРА */
 .head{
-<<<<<<< HEAD
     min-width: 1200px;
-=======
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 	width: 100%;
 	height: 50px;
 	background: #0467FB;
@@ -173,10 +170,7 @@
 
 /* Конфигурация блока ФУТЕРА */
 .footer{
-<<<<<<< HEAD
     min-width: 1200px;
-=======
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 	width: 100%;
 	height: 200px;
 	background: black;

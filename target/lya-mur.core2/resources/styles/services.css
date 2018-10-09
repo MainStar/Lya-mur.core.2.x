@@ -14,11 +14,8 @@
 .all_services{
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
 	/*margin-top: 1%;*/
-=======
 	margin-top: 1%;
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 	margin-left: %;
 }
 .services_conf{
@@ -52,11 +49,8 @@
 	overflow: hidden;
 	width: 100%;
 	height: 50%;
-<<<<<<< HEAD
 	margin-top: 15%;
-=======
 	margin-top: 3%;
->>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 	margin-left: 5.9%;
 	/*display: inline-block;*/
 	border-radius: 7px;
