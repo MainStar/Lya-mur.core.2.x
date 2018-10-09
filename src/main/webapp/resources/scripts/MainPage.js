@@ -1,3 +1,10 @@
+$( document ).ready(function() {
+  $('.trigger').on('click', function() {
+     $('.modal-wrapper').toggleClass('open');
+     return false;
+  });
+});
+
 var xhr = new XMLHttpRequest();
 xhr.open('POST', "api/post/getPosts", true);
 xhr.onload = function(){
