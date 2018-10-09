@@ -8,6 +8,7 @@
         <param-name>upload.images.resources</param-name>
         <param-value>/WEB-INF/postImages</param-value>
     </context-param>
+    <display-name>Archetype Created Web Application</display-name>
 
     <servlet>
         <servlet-name>main</servlet-name>

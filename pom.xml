@@ -74,6 +74,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+<<<<<<< HEAD
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
@@ -101,6 +102,8 @@
                     </execution>
                 </executions>
             </plugin>-->
+=======
+>>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
         </plugins>
     </build>
 

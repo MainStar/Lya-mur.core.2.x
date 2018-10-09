@@ -36,6 +36,9 @@ public class PostsRestServices {
 
             daoPostService.savePost(postDao);
             imageNumber++;
+            postDao.setImage(imagePath);
+
+            daoPostService.savePost(postDao);
             return "OK";
         }else {
             return null;
@@ -45,6 +48,7 @@ public class PostsRestServices {
     private String saveImage(String io, String path) throws IOException {
         System.out.println("Saving image.");
         imageUrl = path + String.format("/resources/postImages/%s.jpg", imageNumber);
+        imageUrl = path + "/WEB-INF/" + imageNumber + imageFormat;
         System.out.println("New image URL: " + path);
         String[] parts = io.split(",");
         String imgString = parts[1];

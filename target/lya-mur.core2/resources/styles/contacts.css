@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contacts_all_block{
 	width: 90%;
 	height: 90%;
@@ -84,6 +85,15 @@
 	height: 30%;
 	/*background: black;*/
 /*}
+=======
+.contacts_info{
+	width: 80%;
+	height: 32%;
+	margin-top: 1%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px #0467FB;
+}
+>>>>>>> 21d3cf326717a5a12d90fb0216c16fd22d2283bf
 .contacts_info_summary{
 	width: 100%;
 	padding-top: 2%;
