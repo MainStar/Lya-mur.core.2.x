@@ -1,10 +1,89 @@
+.contacts_all_block{
+	width: 90%;
+	height: 90%;
+	margin: 5% auto;
+}
+.contact{
+	width: 90%;
+	height: 31%;
+	margin: 3% auto;
+	box-shadow: 0 0 17px #0467FB;
+}
+.contacts_image_block{
+	width: 32%;
+	height: 90%;
+	margin-top: 0.7%;
+	margin-left: 1%;
+	float: left;
+	background: white;
+}
+.contacts_image{
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+}
+.contacts_image > img{
+	width: 100%;
+	height: 100%;
+}
+.contacts_info{
+	width: 65.5%;
+	height: 90%;
+	float: right;
+	/*border-left: 2px solid grey;*/
+	margin-right: 1.2991%;
+	margin-top: 0.7%;
+	background: white;
+}
+.contacts_info_summary{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	margin-top: 1%;
+	box-shadow: 0 0 10px #0467FB;
+	background: #0467FB;
+}
+.contacts_info_summary > a{
+	width: 100%;
+	height: 100%;
+	font-family: Arial;
+	color: white;
+	font-size: 150%;
+}
+.contacts_info_summary > a > h4{
+	margin: auto;
+}
+.contacts_info_information{
+	margin-top: 1%;
+	text-align: center;
+	font-size: 110%;
+	font-family: "Sans-serif", "Arial";
+}
+
+/*.contacts_all_block{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.contact{
+	width: 90%;
+	height: 90%;
+	background: red;
+}
 .contacts_info{
 	width: 80%;
 	height: 32%;
+	float: right;
 	/*margin-top: 1%;*/
-	margin: 1.5% auto;
+/*	margin: 1.5% auto;
 	box-shadow: 0 0 10px #0467FB;
 }
+.contacts_all_block{
+	float: left;
+	width: 30%;
+	height: 30%;
+	/*background: black;*/
+/*}
 .contacts_info_summary{
 	width: 100%;
 	padding-top: 2%;

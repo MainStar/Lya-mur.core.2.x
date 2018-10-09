@@ -1,9 +1,23 @@
+window.onload = function(){
+    if (window.innerWidth > 1200) {
+        //alert(window.innerWidth);
+    	document.getElementById("photo_class_under_serviceInTop").style.height = '22%';
+	    document.getElementById("container_blog_services").style.margin = '130px auto';
+    	document.getElementById("pod_all_services").style.marginTop = '-17%';
+    }
+    if(window.innerHTML <= 1200){
+        document.getElementById("photo_class_under_serviceInTop").style.height = '52%';
+        document.getElementById("container_blog_services").style.margin = '0 auto';
+        document.getElementById("pod_all_services").style.marginTop = '-11%';
+    }
+}
+
 var xhr = new XMLHttpRequest();
 xhr.open('POST', "api/post/getPosts", true);
 xhr.onload = function(){
     //alert(xhr.responseText);
     var postObject = JSON.parse(xhr.responseText);
-    for(var i = 0; i < postObject.length; i++){
+    for(var i = postObject.length - 1; i < postObject.length; i--){
         var root = document.getElementById('blog');
             var blog_post = document.createElement('div');
 
