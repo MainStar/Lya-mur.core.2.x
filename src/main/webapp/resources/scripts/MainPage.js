@@ -11,12 +11,33 @@ window.onload = function(){
         document.getElementById("pod_all_services").style.marginTop = '-11%';
     }
 }
-$( document ).ready(function() {
-  $('.trigger').on('click', function() {
-     $('.modal-wrapper').toggleClass('open');
-     return false;
-  });
-});
+
+var button_map = document.getElementById("buton_location");
+var modal_wrapper = document.getElementById("modal-wrapper");
+var modal = document.getElementById("modal");
+var button_close_modal = document.getElementById("btn-close-modal");
+button_map.onclick = function(){
+    modal_wrapper.style = "display:block;";
+    modal.style = "display:block;";
+    /*$('modal').slideUp();*/
+    button_close_modal.style = "display:block;";
+}
+
+button_close_modal.onclick = function(){
+    closeModal();
+}
+
+window.onclick= function(event){
+    if(event.target == modal){
+        closeModal();
+    }
+}
+
+function closeModal(){
+    modal_wrapper.style = "display:none;";
+    modal.style = "display:none;";
+    button_close_modal.style = "display:block;";
+}
 
 var xhr = new XMLHttpRequest();
 xhr.open('POST', "api/post/getPosts", true);

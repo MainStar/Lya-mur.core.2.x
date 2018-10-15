@@ -12,9 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/styles/footer.css">
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbEdIP3fPgSHadoxXBWCPKIQWrJWPJSGI&callback=initMap"></script>
 	<script type="text/javascript" src="resources/scripts/loadMap.js"></script>
-	<script type="text/javascript" src="resources/scripts/MainPage.js"></script>
 	<link rel="icon" type="image/png" href="resources/images/icons/favicon96.png">
-	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 </head> 
 <body>
 	<div class="main_container">
@@ -115,8 +113,8 @@
 					<div class="name">
 						<a><h4>Ветеринарная клиника ЛяМур</h4></a>
 					</div>
-					<div class="buton_location">
-						<a href=""><h4>Открыть карту</h4>
+					<div class="buton_location" id="buton_location">
+						<a><h4>Открыть карту</h4>
 							<!--<div class="ololo">
 
                             </div>-->
@@ -376,18 +374,21 @@
 			</div>
 		</div>
 	</div>
-	<div class="modal-wrapper">
- 		<div class="modal">
+	<div class="modal-wrapper" id="modal-wrapper">
+ 		<div class="modal" id="modal">
     		<div class="head-modal">
-      			<a class="btn-close trigger" href="#">
-        		<i class="fa fa-times" aria-hidden="true"></i>
+				<i>Наш координаты</i>
+      			<a class="btn-close" id="btn-close-modal">
+					<img src="resources/images/close-button.png" alt="Close button" />
       			</a>
     		</div>
     		<div class="content">
-        		<div class="map-modal">
+        		<div class="map-modal" id="map-modal">
         		</div>
     		</div>
   		</div>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="resources/scripts/MainPage.js"></script>
 </body>
 </html>

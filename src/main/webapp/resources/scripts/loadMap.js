@@ -4,8 +4,16 @@ function initMap(){
        zoom: 10,
        center: uluru
      });
+     var map_modal = new google.maps.Map(document.getElementById('map-modal'),{
+        zoom: 12,
+        center: uluru
+     });
      var marker = new google.maps.Marker({
        position: uluru,
        map: map
+     });
+     var marker_modal = new google.maps.Marker({
+        position: uluru,
+        map: map_modal
      });
 }

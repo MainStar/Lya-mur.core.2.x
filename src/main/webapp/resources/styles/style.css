@@ -154,7 +154,7 @@
 	text-align: center;
 	font-weight: 500;
 	color: white;
-	color: #e2231a;
+	color: black;
 }
 .buton_location{
 	width: 24%;
@@ -170,6 +170,7 @@
 .buton_location > a{
 	width: 100%;
 	height: 100%;
+	cursor: pointer;
 }
 .buton_location > a > h4{
 	display: block;
@@ -447,6 +448,7 @@
 	margin: 15px auto;
 }
 
+/* Modal */
 .modal-wrapper {
   width: 100%;
   height: 100%;
@@ -454,22 +456,21 @@
   top: 0; 
   left: 0;
   background: rgba(0, 0, 0, 0.6);
-  visibility: hidden;
+  display: none;
   opacity: 0;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
-/* Modal */
-.modal-wrapper.open {
+.modal-wrapper {
   opacity: 1;
-  visibility: visible;
+  display: none;
 }
 
 .modal {
   width: 600px;
   height: 400px;
-  display: block;
+  display: none;
   margin: 50% 0 0 -300px;
   position: relative;
   top: 50%; 
@@ -480,7 +481,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.modal-wrapper.open .modal {
+.modal-wrapper .modal {
   margin-top: -200px;
   opacity: 1;
 }
@@ -493,19 +494,36 @@
   background: #0467FB;
 }
 
+.head-modal > i{
+    font-size: 28px;
+    font-family: "Arial";
+}
+
 .btn-close {
+  width: 28px;
+  height: 28px;
   font-size: 28px;
   display: block;
   float: right;
   color: #fff;
+  cursor: pointer;
+}
+
+.btn-close > img{
+    width:100%;
+    height:100%;
 }
 
 .content {
   padding: 10%;
+  width: 80%;
+  height: 80%;
+  background: black;
 }
 
 .map-modal {
-  text-align: center;
-  font-family: 'Montserrat', Arial,       Helvetica, sans-serif;
-  color: #e2525c;
+    margin-top: 0.2%;
+    width: 125%;
+    height: 125%;
+    margin: -12.5%;
 }
