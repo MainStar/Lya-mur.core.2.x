@@ -1,12 +1,13 @@
 window.onload = function(){
-    if (window.innerWidth > 1200) {
+    if (window.innerWidth > 1400) {
         //alert(window.innerWidth);
-    	document.getElementById("photo_class_under_serviceInTop").style.height = '22%';
-	    document.getElementById("container_blog_services").style.margin = '130px auto';
-    	document.getElementById("pod_all_services").style.marginTop = '-17%';
+    	document.getElementById("photo_class_under_serviceInTop").style.height = '25%';
+	    document.getElementById("container_blog_services").style.margin = '0px auto';
+    	document.getElementById("pod_all_services").style.marginTop = '-5%';
     }
-    if(window.innerWidth <= 1200){
-        document.getElementById("photo_class_under_serviceInTop").style.height = '52%';
+    if(window.innerWidth <= 1400){
+        //alert(window.innerWidth);
+        document.getElementById("photo_class_under_serviceInTop").style.height = '22%';
         document.getElementById("container_blog_services").style.margin = '0 auto';
         document.getElementById("pod_all_services").style.marginTop = '-11%';
     }
