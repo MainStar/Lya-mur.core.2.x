@@ -6,6 +6,7 @@ function createPost(){
 	var textPost = document.getElementById('textPost').value;
 	var img = window.valueImg;
 	var post = {
+	    "id":"",
 		"summary":summary,
 		"mainPageText":mainPageText,
 		"textPost":textPost,

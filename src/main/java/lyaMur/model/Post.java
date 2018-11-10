@@ -2,12 +2,21 @@ package lyaMur.model;
 
 public class Post {
 
+    private String id;
     private String summary;
     private String mainPageText;
     private String textPost;
     private String image;
 
     public Post() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getSummary() {
@@ -44,7 +53,8 @@ public class Post {
 
     @Override
     public String toString() {
-        return "summary = " + summary +
+        return "id = " + id +
+                "summary = " + summary +
                 ", mainPageText = " + mainPageText +
                 ", textPost = " + textPost +
                 ", image = " + image;

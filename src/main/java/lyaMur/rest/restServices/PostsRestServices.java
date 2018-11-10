@@ -34,7 +34,6 @@ public class PostsRestServices {
             postDao.setTextPost(post.getTextPost());
             postDao.setImage("resources/postImages/" + imageNumber + ".jpg");
 
-            daoPostService.savePost(postDao);
             imageNumber++;
             postDao.setImage(imagePath);
 
@@ -62,6 +61,7 @@ public class PostsRestServices {
         File file = new File(imageUrl);
         file.createNewFile();
         ImageIO.write(image, "jpg", file);
+        System.out.println("File path: " + file.getAbsolutePath());
         if (file.exists()){
             return imageUrl;
         }

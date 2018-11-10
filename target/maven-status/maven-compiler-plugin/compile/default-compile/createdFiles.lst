@@ -1,6 +1,7 @@
 lyaMur/servlets/DashoardServlet.class
 lyaMur/servlets/AdminLoginServlet.class
 lyaMur/dao/daoConnector/DaoPosts.class
+lyaMur/servlets/PostServlet.class
 lyaMur/servlets/ServicesServlets/HirurgyServiceServlet.class
 lyaMur/servlets/ServicesServlets/LaboratoryServiceServlet.class
 Main.class

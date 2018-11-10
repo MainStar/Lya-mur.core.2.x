@@ -82,7 +82,7 @@
 }
 .phone > a{
 	text-decoration: none;
-	color: black;
+	color: #0467FB;
 }
 .phone > a > h4{
 	font: 115% sans-serif;
@@ -96,7 +96,7 @@
 }
 .addres > a{
 	text-decoration: none;
-	color: black;
+	color: #0467FB;
 }
 .addres > a > h4{
 	font: 115% sans-serif;
@@ -108,10 +108,13 @@
 }
 .schedule > a{
 	text-decoration: none;
-	color: black;
+	color: #0467FB;
 }
 .schedule > a > h4{
 	font: 115% sans-serif;
+}
+.schedule > p{
+    margin-top: 2%;
 }
 
 /* Конфигурация Блока под синим блоком */
@@ -167,6 +170,7 @@
 	display: block;
 	text-align: center;
 	color: #e2231a;
+	border-radius: 20px;
 }
 .buton_location > a{
 	width: 100%;
@@ -175,6 +179,7 @@
 }
 .buton_location > a > h4{
 	display: block;
+	margin-top: 3%;
 }
 .button_location > a > h4:hover{
 	background: black;
@@ -327,7 +332,6 @@
 	margin-left: 3%;
 	overflow: hidden;
 	border: 1px solid black;
-	background: black;
 }
 .blog_img > img{
 	width: 100%;
@@ -484,7 +488,7 @@
 }
 
 .modal-wrapper .modal {
-  margin-top: -200px;
+  margin-top: -250px;
   opacity: 1;
 }
 
@@ -517,9 +521,9 @@
 }
 
 .content {
-  padding: 10%;
+  margin: 10%;
   width: 80%;
-  height: 80%;
+  height: 85%;
   background: black;
 }
 

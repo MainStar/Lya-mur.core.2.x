@@ -19,7 +19,6 @@ public class MainServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         Map<String, String> pageVeriable = new HashMap<String, String>();
         pageVeriable.put("name", "Vladislav");
         /*resp.getWriter().println(PageGenerator.instance().getPage("index.html", pageVeriable));*/

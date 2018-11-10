@@ -42,18 +42,18 @@
 						<p><textarea id="mainPageText" rows="5" cols="45" placeholder=" Введите текст здесь" ></textarea></p>
 					</div>
 					<div>
-						<a>Введите тект для поста</a>
+						<a>Введите текст для поста</a>
 						<p><textarea id="textPost" rows="10" cols="45" placeholder=" Введите текст здесь"></textarea></p>
 					</div>
 					<div class="post_field_photo">
 						<a>Загрузите изображение для поста</a>
 						<div class="field_photo" id="photo">
 							<img src="resources/images/admin/empty.jpg" alt="empty photo of post"/>
-							<!--<div class="frame_upload_img" id="frame_upload_img">
-                                <a href=""><h4>Нажмите для загрузки изображения</h4></a>
-                            </div>-->
 						</div>
-						<input type="file" multiple accept="image/*, image/jpeg" onchange="newImage()"/>
+						<label class="image-for-post">
+							<a>Выберите файл</a>
+							<input type="file" multiple accept="image/*, image/jpeg" onchange="newImage()"/>
+						</label>
 					</div>
 					<div class="frame_button_create_post">
 						<div class="frame_button" id="frame_button">

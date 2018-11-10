@@ -35,13 +35,34 @@ public class DaoPosts {
         System.out.println("New post was created!");
     }
 
+    public static List<Post> getPostByID(String id) {
+        postList.clear();
+        try {
+            resultSet = statement.executeQuery("SELECT * FROM posts WHERE id=" + id);
+            System.out.println("Getting post by ID = " + id);
+            while (resultSet.next()){
+                Post post = new Post();
+                post.setId(resultSet.getString("id"));
+                post.setSummary(resultSet.getString("summary"));
+                post.setMainPageText(resultSet.getString("mainPageText"));
+                post.setTextPost(resultSet.getString("textPost"));
+                post.setImage(resultSet.getString("imagePath"));
+                postList.add(post);
+                System.out.println(post);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return postList;
+    }
+
     public static List<Post> getLast50Posts() throws SQLException {
         postList.clear();
-        resultSet = statement.executeQuery("SELECT summary, mainPageText, textPost, imagePath FROM " +
-                "posts WHERE id <= 50;");
+        resultSet = statement.executeQuery("SELECT * FROM " + "posts LIMIT 50");
         System.out.println("Getting last 50 posts for main page");
         while (resultSet.next()){
             Post post = new Post();
+            post.setId(resultSet.getString("id"));
             post.setSummary(resultSet.getString("summary"));
             post.setMainPageText(resultSet.getString("mainPageText"));
             post.setTextPost(resultSet.getString("textPost"));
