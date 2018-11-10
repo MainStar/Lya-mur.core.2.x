@@ -4,7 +4,7 @@
 }
 .page{
 	width: 100%;
-	height: 1000px;
+	height: 1150px;
 	background: #DCDCDC;
 }
 /* Конфигурация всего блока ХЕДЕРА */
@@ -16,19 +16,20 @@
 }
 .header-wraper{
 	height: 90%;
-	width: 1200px;
-	float: left;
+	width: 100%;
 	margin-top: 0.19319%;
-	margin-left: 5%;
+	margin: 0 auto;
 }
 .header{
     width: 90%;
     height: 100%;
+    margin:0px auto;
 }
 .header-logo-block{
 	height: 100%;
 	width: 15%;
 	margin-left:1%;
+	margin-top:0.3%;
 	float: left;
 }
 .header-logo-block > img{
@@ -48,7 +49,7 @@
 }
 .service-menu > ul{
     list-style-type: none;
-    /*float: right;*/
+    float: right;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -172,7 +173,7 @@
 .footer{
     min-width: 1200px;
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	background: black;
 	opacity: 0.8;
 }
@@ -180,11 +181,53 @@
 	width: 1200px;
 	height: 100%;
 	margin: auto;
-	background: white;
 }
 .footer-info-container{
 	width: 90%;
 	height: 90%;
 	margin: auto;
 	background: black;
+}
+.footer_info{
+	width: 20%;
+	height: 90%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 2%;
+	margin-left: 4%;
+}
+.footer_info_name{
+	width: 100%;
+	height: 10%;
+	font-size: 140%;
+	font-family:  "Sans-serif", "Arial";
+}
+.footer_info_name > a{
+	color: #0467FB;
+	text-decoration: none;
+}
+/* Конфигурация Названий в футере */
+.footer_info_information{
+	width: 100%;
+	height: 100%;
+	font-family: "Sans-serif", "Arial";
+	font-size: 90%;
+}
+.footer_info_information > p{
+	margin-top: 10%;
+	color: white;
+}
+.footer_info_information > p > a{
+	color: white;
+	text-decoration: none;
+}
+.footer_info_information_pod{
+	width: 100%;
+	height: 27%;
+	color: white;
+	font-family: "Sans-serif", "Arial";
+	font-size: 100%;
+}
+.footer_info_information_pod > p{
+	margin-top: 4%;
 }
