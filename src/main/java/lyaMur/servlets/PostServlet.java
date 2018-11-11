@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@WebServlet("/getPost")
+@WebServlet("/post")
 public class PostServlet extends HttpServlet {
 
     public PostServlet() {
@@ -27,6 +27,6 @@ public class PostServlet extends HttpServlet {
         List<Post> postList = DaoPosts.getPostByID(postId);
         resp.setContentType("text/html;charset=UTF-8;");
         req.setAttribute("post", postList);
-        req.getRequestDispatcher("resources/pages/dashboard.html").forward(req, resp);
+        req.getRequestDispatcher("resources/pages/Post.html").forward(req, resp);
     }
 }

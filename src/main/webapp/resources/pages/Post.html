@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<#if serviceName??>
-		<#else>
-		<#list post as post>
-			<title>ЛяМур ${post.serviceName}</title>
-		</#list>
-	</#if>
+	<title>Post {postName}</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="resources/styles/Service.css">
+	<link rel="stylesheet" type="text/css" href="resources/styles/post.css">
 </head>
 <body>
 	<div class="page">
@@ -52,7 +47,7 @@
 						<div class="service-img-container">
 							<div class="img-block">
 								<#list post as post>
-									<img src="${post.imageUrl}" alt="Service image">
+									<img src="${post.image}" alt="post image">
 								</#list>
 							</div>
 						</div>
@@ -60,16 +55,16 @@
 							<div class="service-info-pod_block">
 								<div class="service-topic">
 									<#list post as post>
-										<#if post.serviceTopick??>
-											<h3>${post.serviceTopick}</h3>
+										<#if post.summary??>
+											<h3>${post.summary}</h3>
 										</#if>
 									</#list>
 								</div>
 								<hr align="center" width="100%" size="1" color="black" />
 								<div class="service-info">
 									<#list post as post>
-										<#if post.serviceInfo??>
-											<h3>${post.serviceInfo}</h3>
+										<#if post.textPost??>
+											<h3>${post.textPost}</h3>
 										</#if>
 									</#list>
 								</div>

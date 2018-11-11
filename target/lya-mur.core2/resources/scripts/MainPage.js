@@ -66,7 +66,7 @@ xhr.onload = function(){
         img.src = postObject[i].image;
         h4_summary.innerHTML = postObject[i].summary;
         h4_info.innerHTML = postObject[i].mainPageText;
-        a.href = "getPost?postId=" + postObject[i].id;
+        a.href = "post?postId=" + postObject[i].id;
         h4.innerHTML = "Читать далее";
 
         blog_post.className = "blog_post";
